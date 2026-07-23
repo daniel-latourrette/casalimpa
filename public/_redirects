@@ -1,0 +1,4 @@
+# Cloudflare Pages — fallback SPA.
+# As rotas /privacidade e /termos existem como HTML pré-renderizado em dist/,
+# e os ficheiros estáticos têm prioridade sobre esta regra.
+/*  /index.html  200
