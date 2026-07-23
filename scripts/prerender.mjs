@@ -32,7 +32,7 @@ for (const route of routes) {
       .replace(/<title>[^<]*<\/title>/, `<title>${TITLES[route]}</title>`)
       .replace(
         /<link rel="canonical" href="[^"]*" \/>/,
-        `<link rel="canonical" href="https://larlimpo.pt${route}" />`
+        `<link rel="canonical" href="https://casalimpa-eight.vercel.app${route}" />`
       )
       .replace(/<meta name="robots"[^>]*>/, '')
       .replace('</head>', '  <meta name="robots" content="noindex, follow" />\n  </head>')
